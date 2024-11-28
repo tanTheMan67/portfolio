@@ -1,0 +1,13 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+
+}
+
+.base{
+  background-color: aqua;
+  font-weight: 900;
+  text-align: center;
+  height: 10vh;
+}

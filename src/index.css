@@ -1,13 +1,12 @@
 body{
   margin: 0px;
   padding: 0px;
-  background-color: black;
-
+  font-size: 8px;
 }
-
-.base{
-  background-color: aqua;
-  font-weight: 900;
-  text-align: center;
-  height: 10vh;
+.hero-img{
+  height: 140px;
+  width: 160px;
+  padding: 6px;
+  border-radius: 50%;
+  
 }

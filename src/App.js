@@ -1,3 +1,4 @@
+import Contact from "./Contact/Contact";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/skills/Skills";
@@ -7,6 +8,7 @@ const App = ()=>(
         <Hero/>
         <Projects/>
         <Skills/>
+        <Contact/>
     </h1>
 )
 export default App;

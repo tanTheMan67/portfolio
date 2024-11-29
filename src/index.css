@@ -176,3 +176,22 @@ body{
     max-width: 300px;
     text-transform: uppercase;
   }
+  .skill-block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+.skill-item {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit:cover;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 20px rgb(5, 221, 225);
+}
+.skill-item:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px  #d35400;
+}

@@ -195,3 +195,64 @@ body{
   transform: scale(1.1);
   box-shadow: 0px 0px 20px  #d35400;
 }
+.contact-head{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  max-width: 350px;
+  text-transform: uppercase;
+}
+.contact-button{
+  padding: 0.8rem;
+  width: 100%;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  box-shadow: 0px 0px 20px blue;
+  background-color: beige;
+  cursor: pointer;
+  border: none;
+}
+.contact-button:hover{
+  transform: scale(1.12);
+  box-shadow: 0px 0px 20px #d35400;
+  background-color: yellowgreen;  
+}
+.contact-form{
+  text-align: center;
+  min-width: 300px;
+  background: linear-gradient(orange,pink,purple);
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  opacity: 0.75;
+  border-radius: 10%;
+  box-shadow: 0px 0px 20px  #d35400;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text-fields{
+  margin-top: 1rem;
+  padding: .7rem;
+}
+.form textarea{
+  margin-top: 1rem;
+  height: 1.94rem;
+  padding: 1rem;
+}
+.form-button{
+  margin-top: 12px;
+  padding: 5px;
+  width: 13rem;
+  cursor: pointer;
+  font-weight: 800;
+  border: none;
+}
+.form-button:hover{
+  background-color: rgb(38, 172, 217);
+  transform: scale(1.05);
+}
